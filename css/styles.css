@@ -4,12 +4,39 @@ body {
   background: #fff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  columns: currentColor;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 /* ===HEADER=== */
@@ -18,6 +45,8 @@ a {
 }
 
 .header-nav {
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .header-logo {
@@ -55,6 +84,8 @@ a {
 
 .header-address {
   font-style: normal;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .header-address-list {
@@ -96,6 +127,7 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -108,6 +140,7 @@ a {
   letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
+  margin: o auto;
 }
 
 .hero-btn:hover,
