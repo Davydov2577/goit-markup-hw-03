@@ -41,21 +41,19 @@ img {
 /* ===HEADER=== */
 
 .header {
-  /* padding-top: 26px;
-  padding-bottom: 26px; */
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  padding: 24px 0;
+  /* padding: 24px 0; */
   align-items: center;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-logo {
