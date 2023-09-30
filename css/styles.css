@@ -35,8 +35,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  /* padding-right: 15px; */
-
   /* outline: 2px solid red; */
 }
 
@@ -49,8 +47,8 @@ img {
 }
 
 .header-container {
-  /* padding-bottom: 24px; */
   display: flex;
+  padding: 24px 0;
   align-items: center;
 }
 
