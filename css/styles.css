@@ -41,13 +41,13 @@ img {
 /* ===HEADER=== */
 
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  /* padding: 24px 0; */
+  padding: 24px 0;
   align-items: center;
 }
 
