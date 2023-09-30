@@ -41,20 +41,19 @@ img {
 /* ===HEADER=== */
 
 .header {
-  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  /* padding: 24px 0; */
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-logo {
@@ -79,7 +78,6 @@ img {
 }
 
 .header-menu-item {
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -98,7 +96,6 @@ img {
 .header-address {
   font-style: normal;
   margin-left: 332px;
-  padding: 24px 0;
 }
 
 .header-address-list {
